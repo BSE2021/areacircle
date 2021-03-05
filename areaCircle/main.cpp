@@ -6,9 +6,15 @@
 //
 
 #include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+using namespace std;
+#define PI 3.14
+int main() {
+    float r, area;
+    cout << "Enter radius r : \t";
+    cin >> r;
+    area = PI * r * r;
+    cout << "Area of circle = \n" << area ;
+    
+    
     return 0;
 }
